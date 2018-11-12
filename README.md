@@ -5,7 +5,7 @@ that increases in width.
 
 ## Usage
 
-Include D3 and the this library in your HTML.
+Include [D3](https://d3js.org/) and the this library in your HTML.
 
 ```
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -56,9 +56,9 @@ Open `demo/index.html` in a web browser to see the code in action.
 
 ## Built with
 
-* [Babel]() - Transpiling/browser support
-* [D3]() - Adding and moving shapes on the page
-* [Webpack]() - Packaging everything up
+* [Babel](https://babeljs.io/) - Transpiling/browser support
+* [D3](https://d3js.org/) - Adding and moving shapes on the page
+* [Webpack](https://webpack.js.org/) - Packaging everything up
 
 ## Contributing
 
@@ -71,7 +71,7 @@ This library uses [SemVer](http://semver.org/) for versioning. For the versions 
 
 ## Authors
 
-* **Travis Horn** - [https://travishorn.com](https://travishorn.com)
+* Travis Horn - [https://travishorn.com](https://travishorn.com)
 
 ## License
 
