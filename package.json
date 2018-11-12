@@ -1,5 +1,5 @@
 {
-  "name": "progressor",
+  "name": "@travishorn/progressor",
   "version": "2.0.0",
   "description": "Progress bars in the browser that use a token/shape that moves across the screen instead of a bar that increases in width.",
   "main": "dist/progressor.js",
@@ -20,5 +20,13 @@
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
   },
-  "browserslist": "> 1%"
+  "browserslist": "> 1%",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/progressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/progressor/issues"
+  },
+  "homepage": "https://github.com/travishorn/progressor#readme"
 }
