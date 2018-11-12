@@ -1,13 +1,19 @@
 {
   "name": "@travishorn/progressor",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Progress bars in the browser that use a token/shape that moves across the screen instead of a bar that increases in width.",
   "main": "dist/progressor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": ["d3", "svg", "progress", "progress bar", "loading"],
+  "keywords": [
+    "d3",
+    "svg",
+    "progress",
+    "progress bar",
+    "loading"
+  ],
   "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com)",
   "license": "MIT",
   "peerDependencies": {
