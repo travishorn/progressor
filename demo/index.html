@@ -6,10 +6,49 @@
 
     <title>Progressor Demo</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="demo.css">
   </head>
   <body>
-    <h1>Progressor Demo</h1>
+    <div class="container">
+      <h1>Progressor Demo</h1>
+
+      <section id="default">
+<pre><code>
+const p = new Progressor(el);
+p.update(0.25);
+</code></pre>
+      </section>
+
+      <section id="size">
+<pre><code>
+const p = new Progressor(el, { size: 200 });
+p.update(0.5);
+</code></pre>
+      </section>
+
+      <section id="styled">
+<pre><code>
+.progressor { background-color: gainsboro; }
+.progressor-token { fill: dodgerblue; }
+
+const p = new Progressor(el);
+p.update(0.75);
+</code></pre>
+      </section>
+
+      <section id="evented">
+<pre><code>
+const p = new Progressor(el);
+const btn = document.getElementById('btn');
+let val = 0;
+btn.addEventListener('click', () => {
+  p.update(val += 0.1);
+});
+</code></pre>
+        <button id="btn">Add progress</button>
+      </section>
+    </div>
 
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="../dist/progressor.js"></script>

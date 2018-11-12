@@ -1,7 +1,15 @@
 /* globals Progressor */
 
-const p1 = new Progressor('body');
-const p2 = new Progressor('body', { size: 200 });
+const p1 = new Progressor('#default');
+const p2 = new Progressor('#size', { size: 200 });
+const p3 = new Progressor('#styled');
+const p4 = new Progressor('#evented');
 
-p1.update(0.5);
-p2.update(0.2);
+const btn = document.getElementById('btn');
+
+p1.update(0.25);
+p2.update(0.5);
+p3.update(0.75);
+
+let val = 0;
+btn.addEventListener('click', () => { p4.update(val += 0.1); });
