@@ -10,4 +10,5 @@ module.exports = {
   externals: {
     d3: 'd3',
   },
+  mode: 'production',
 };
