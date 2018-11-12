@@ -3,7 +3,7 @@
 Progress bars in the browser that use a token/shape that moves across the screen instead of a bar
 that increases in width.
 
-![Progressor demonstration](demo.gif)
+![Progressor demonstration](https://github.com/travishorn/progressor/raw/master/demo.gif)
 
 ## Usage
 
