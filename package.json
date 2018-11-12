@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com)",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "d3": "^5.7.0"
   },
   "devDependencies": {
