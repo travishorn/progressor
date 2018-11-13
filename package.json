@@ -1,6 +1,6 @@
 {
   "name": "@travishorn/progressor",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "Progress bars in the browser that use a token/shape that moves across the screen instead of a bar that increases in width.",
   "main": "dist/progressor.js",
   "scripts": {
