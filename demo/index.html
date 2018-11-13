@@ -16,14 +16,14 @@
       <section id="default">
 <pre><code>
 const p = new Progressor(el);
-p.update(0.25);
+p.update(0.2);
 </code></pre>
       </section>
 
       <section id="size">
 <pre><code>
 const p = new Progressor(el, { size: 200 });
-p.update(0.5);
+p.update(0.4);
 </code></pre>
       </section>
 
@@ -33,7 +33,7 @@ p.update(0.5);
 .progressor-token { fill: dodgerblue; }
 
 const p = new Progressor(el);
-p.update(0.75);
+p.update(0.6);
 </code></pre>
       </section>
 
@@ -47,6 +47,16 @@ btn.addEventListener('click', () => {
 });
 </code></pre>
         <button id="btn">Add progress</button>
+      </section>
+
+      <section id="customImage">
+<pre><code>
+const p = new Progressor(el, {
+  image: 'horse.png',
+  size: 52,
+});
+p.update(0.8);
+</code></pre>
       </section>
     </div>
 
