@@ -26,6 +26,31 @@ Update the value as often as needed. Value should be between 0 and 1.
 p.update(0.5);
 ```
 
+### Options
+
+Pass an object with any of the following options.
+
+```
+const p = new Progressor('body', {
+  size: 100,
+  image: 'horse.png',
+});
+```
+
+#### size
+
+Default: 100
+
+The size of the token in pixels. It is always square. Note that the progress bar itself will always
+expand to the width of its parent element.
+
+#### image
+
+Default: (none)
+
+The URL of a custom image to use as the moving token. Note that square images work best. If this
+option is omitted, a square block is used instead.
+
 See `demo/index.html` for a working demo.
 
 ## Development
@@ -60,6 +85,7 @@ Open `demo/index.html` in a web browser to see the code in action.
 
 * [Babel](https://babeljs.io/) - Transpiling/browser support
 * [D3](https://d3js.org/) - Adding and moving shapes on the page
+* [Icons8](https://icons8.com) - Horse icon in demo
 * [Webpack](https://webpack.js.org/) - Packaging everything up
 
 ## Contributing
