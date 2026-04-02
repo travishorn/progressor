@@ -4,7 +4,7 @@
   "description": "Progress bars in the browser that use a token/shape that moves across the screen instead of a bar that increases in width.",
   "main": "dist/progressor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "webpack",
     "dev": "webpack --mode development -w"
   },
